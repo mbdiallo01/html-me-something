@@ -1,0 +1,19 @@
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    color: brown;
+    background-color: aqua;
+    margin: 25px 25px 25px 25px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+p {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}

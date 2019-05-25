@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Nexa Black';
+    src: url('fonts/nexa-black-webfont.woff2') format('woff2'),
+    url('fonts/nexa-black-webfont.woff') format('woff'),
+    url('fonts/nexa-black-webfont.ttf') format('tff');
+}
+
+@font-face {
+ font-family: "Nexa";
+ font-style: normal;
+ font-weight: 700;
+ src: url("fonts/nexa-heavy.woff2") format('woff2'),
+ url('fonts/nexa-heavy-webfont.woff') format('woff'),
+ url('fonts/nexa-heavy-webfont.ttf') format('tff');
+}
+
+@font-face {
+    font-family: 'Adagio';
+    font-weight: bold;
+    src: url('fonts/adagio_slab-bold-webfont.woff2') format('woff2'),
+    url('fonts/adagio_slab-bold-webfont.woff') format('woff'),
+    url('fonts/adagio_slab-bold-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Adagio';
+    font-weight: normal;
+    src: url('fonts/adagio_slab-regular-webfont.woff2') format('woff2'),
+    url('fonts/adagio_slab-regular-webfont.woff') format('woff'),
+    url('fonts/adagio_slab-regular-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Adagio';
+    font-weight: light;
+    src: url('fonts/adagio_slab-light-webfont.woff2') format('woff2'),
+    url('fonts/adagio_slab-light-webfont.woff') format('woff'),
+    url('fonts/adagio_slab-light-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Adagio';
+    font-weight: normal;
+    font-style: italic;
+    src: url('fonts/adagio_slab-regular_italic-webfont.woff2') format('woff2'),
+    url('fonts/adagio_slab-regular_italic-webfont.woff') format('woff'),
+    url('fonts/adagio_slab-regular_italic-webfont.ttf') format('ttf');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(68, 68,68);
+    margin-top: 1.5em;
+}
+
+h1 {
+    font-family: "Nexa", sans-serif;
+    font-size: 2.5em;
+    margin-top: inherit;
+}
+
+h2 {
+    font-family: "Nexa", serif;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: "Nexa", serif;
+    font-size: 1.5em;
+    /* font-weight: bold; */
+    color: #5c93ce
+}
+
+h4 {
+    font-family: "Nexa", serif;
+    font-size: 1.2em;
+    /* text-transform: uppercase; */
+}
+
+h5 {
+    font-family: "Nexa", sans-serif;
+    font-size: 1.1em;
+    color: #547899;
+}
+
+h6 {
+    font-family: "Nexa", sans-serif;
+}
+
+p {
+    margin: 1em 0;
+}
+
+body {
+    color: rgb(52, 74, 95);
+    font-size: 17px;
+    font-family: "Adagio", serif;
+    font-weight: normal;
+    line-height: 1.9em;
+}
